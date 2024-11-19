@@ -35,7 +35,7 @@ import {
       console.log("datta",data)
 
       if (data.data && data.data.paymentUrl) {
-        window.location.href= data.data.paymentUrl;
+        window.open(data.data.paymentUrl);
     }
       // if(data.payment_link_url){
       //   window.location.href=data.payment_link_url;
